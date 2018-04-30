@@ -1,10 +1,6 @@
 # bootstrap-input-spinner
 
-A Bootstrap 4 / jQuery plugin to create input spinner elements for number input.
-
-## Example
-
-[Demo Page](http://shaack.com/projekte/bootstrap-input-spinner/)
+A Bootstrap 4 / jQuery plugin for feet and inches.
 
 ## Features
 
@@ -26,7 +22,10 @@ Or just download this repository and include `src/InputSpinner.js`.
 ```html
 <input type="number" value="50" min="0" max="100" step="10"/>
 <script>
-    $("input[type='number']").InputSpinner();
+    $("input[type='number']").FeetInchesInputSpinner();
+	$(function(){
+		$(".input-group-spinner").find("input:text").prop('readonly', true);  
+	})    
 </script>
 ```
 
@@ -48,7 +47,7 @@ Uses the following tag-attributes:
 #### JavaScript
 
 ```javascript
-$(element).InputSpinner(config);
+$(element).FeetInchesInputSpinner(config);
 ```
 
 default config is:
