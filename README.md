@@ -11,9 +11,7 @@ A Bootstrap 4 / jQuery plugin for feet and inches.
 
 ## Installation
 
-`npm install -save bootstrap-input-spinner`
-
-Or just download this repository and include `src/InputSpinner.js`.
+just download this repository and include `src/InputSpinner.js`.
 
 **No extra css needed**, only Bootstrap 4 and jQuery.
 
