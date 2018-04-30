@@ -17,12 +17,12 @@
 </head>
 <body>
 <section class="container pt-5">
-    <h1>bootstrap-input-spinner</h1>
+    <h1>bootstrap-input-spinner Feet And Inches</h1>
     <p class="mb-3">
-        A Bootstrap 4 / jQuery plugin to create input spinner elements for number input.
+        A Bootstrap 4 / jQuery plugin for feet and inches.
     </p>
     <h2>Source code and documentation</h2>
-    <p><a href="https://github.com/shaack/bootstrap-input-spinner">GitHub repository</a></p>
+    <p><a href="https://github.com/stevensoftwaredev/bootstrap-input-spinner">GitHub repository</a></p>
     <h2>Examples</h2>
     <form>
     <h5>Simple Integer</h5>
@@ -47,15 +47,21 @@
 
     <h5>Script</h5>
     <pre class="code">&lt;script&gt;
-    $("input[type='number']").InputSpinner();
+    $("input[type='number']").FeetInchesInputSpinner();
+    $(function(){
+	    $(".input-group-spinner").find("input:text").prop('readonly', true);
+	})
 &lt;/script&gt;</pre>
 </section>
 <!-- bootstrap needs jQuery -->
 <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="./src/InputSpinner.js"></script>
+<script src="./src/FeetInchesInputSpinner.js"></script>
 <script>
-    $("input[type='number']").InputSpinner();
+    $("input[type='number']").FeetInchesInputSpinner();
+    $(function(){
+		$(".input-group-spinner").find("input:text").prop('readonly', true);
+	})
 </script>
 </body>
 </html>
