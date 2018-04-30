@@ -2,13 +2,13 @@
   "name": "bootstrap-input-spinner",
   "version": "1.3.23",
   "description": "Bootstrap/jQuery plugin to create input spinner elements with Bootstrap 4.",
-  "main": "src/bootstrap-input-spinner/InputSpinner.js",
+  "main": "src/bootstrap-input-spinner/FeetInchesInputSpinner.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shaack/bootstrap-input-spinner.git"
+    "url": "git+https://github.com/stevensoftwaredev/bootstrap-input-spinner.git"
   },
   "keywords": [
     "Bootstrap 4",
@@ -17,12 +17,12 @@
     "Input",
     "UI"
   ],
-  "author": "Stefan Haack <shaack@gmail.com> (http://www.shaack.com)",
+  "author": "Steven Hawks <steven27030@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shaack/bootstrap-input-spinner/issues"
+    "url": "https://github.com/stevensoftwaredev/bootstrap-input-spinner/issues"
   },
-  "homepage": "https://github.com/shaack/bootstrap-input-spinner#readme",
+  "homepage": "https://github.com/stevensoftwaredev/bootstrap-input-spinner#readme",
   "dependencies": {
     "bootstrap": "^4.0.0",
     "jquery": "^3.3.1",
